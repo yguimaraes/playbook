@@ -11,7 +11,7 @@ Feel free to create a PR to this repository
 1. Short Introduction to ruby [RubyMonk](https://rubymonk.com/)
 
 2. Excellent guide to grok main nuances/details in Rub language [RubyKoans](http://rubykoans.com/)
-  * Obs. If you prefer which after each change make in your editor the koans run again automatically, install Ruby gem called **watchr**. See below:
+  * Recommendation: If you prefer which after each change make in your editor the koans run again automatically, install Ruby gem called **watchr**. See below:
 
   ```bash
   cd ruby_koans
