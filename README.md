@@ -6,7 +6,13 @@ Feel free to create a PR to this repository
 
 [CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Ruby 
+## Ruby
+
+**Tip:** Always which you want test anything in Ruby, run the command prompt below:
+
+  ```bash
+  irb
+  ```
 
 1. Short Introduction to ruby [RubyMonk](https://rubymonk.com/)
 
