@@ -30,6 +30,11 @@ git config --global alias.lg `log --color --graph --pretty=format:'%Cred%h%Crese
 ```
 
 ### Autocomplete with Git 
+Rodar no terminal:
+1.brew install git && brew install bash-completion
+2.if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
 
 autocomplete: completion.bash  in 
 https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
