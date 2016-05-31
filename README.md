@@ -6,11 +6,25 @@ Feel free to create a PR to this repository
 
 [CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Ruby 
+## Ruby
+
+**Tip:** Always which you want test anything in Ruby, run the command prompt below:
+
+  ```bash
+  irb
+  ```
 
 1. Short Introduction to ruby [RubyMonk](https://rubymonk.com/)
 
-2. Excellent guide to grok main nuances/details in Rub language [RubyKoans](http://rubykoans.com/) 
+2. Excellent guide to grok main nuances/details in Rub language [RubyKoans](http://rubykoans.com/)
+  * Recommendation: If you prefer which after each change make in your editor the koans run again automatically, install Ruby gem called **watchr**. See below:
+
+  ```bash
+  cd ruby_koans
+  rake
+  gem install watchr
+  watchr koans.watchr
+  ```
 
 OBS. The download link seems broken. Use https://github.com/tibbon/ruby-koans instead
 
