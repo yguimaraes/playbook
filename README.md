@@ -25,9 +25,9 @@ Feel free to create a PR to this repository
   gem install watchr
   watchr koans.watchr
   ```
+  * OBS. The download link seems broken. Use https://github.com/tibbon/ruby-koans instead
 
-OBS. The download link seems broken. Use https://github.com/tibbon/ruby-koans instead
-3. Ruby coding style guide(https://github.com/bbatsov/ruby-style-guide)
+3. [Ruby coding style guide](https://github.com/bbatsov/ruby-style-guide)
 
 # Tools 
 
@@ -46,15 +46,15 @@ git config --global alias.lg `log --color --graph --pretty=format:'%Cred%h%Crese
 
 ### Autocomplete with Git 
 
-Rodar no terminal:
-  brew install git && brew install bash-completion
-  if [ -f $(brew --prefix)/etc/bash_completion ]; then
-    . $(brew --prefix)/etc/bash_completion
-  fi
-  
-OU
+* Rodar no terminal:
+```bash
+brew install git && brew install bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+``` 
 
-autocomplete: completion.bash  in 
+* OU autocomplete: completion.bash  in 
 https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
 
 
